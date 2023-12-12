@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{font-family: 'Roboto', sans-serif;}
+
+.app{padding: 20px;}
+.app .task-input{padding: 20px 0px;}
+.app .task-input input{width: 300px;height: 35px;padding-left: 10px;}
+.app .task-list li{list-style: none;padding: 10px 0px;}
+.app .task-list li .title{padding: 10px;}
+.app .task-list li svg:hover{color: #d10000;cursor: pointer;}
+.app .add-task button{width: 100px;height: 35px;cursor: pointer;border: none;background-color: #005cc8;color: #fff;border-radius: 5px;margin-top: 10px;}
+.app .add-task button:hover{background-color: #004a9e;}
